@@ -13,14 +13,6 @@ db1 = client['mongotest']
 coll = db1['test1']
 coll.insert_one(d )
 
-d = {
-    "name" : "kalpesh",
-    "email" : "kalpesh.shevale@",
-    "surname" : "shevale"}
-
-db1 = client['mongotest']
-coll = db1['test1']
-coll.insert_one(d )
 
 
 
